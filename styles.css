@@ -1,0 +1,61 @@
+/* external css styling file below */
+
+/* adding element selector to body for backround */
+body{
+    background-color: burlywood;
+}
+/* adding element selector for heading h1 */
+h1{
+    /* adds padding around the content */
+    padding: 4px;
+    /* adds the border style around the caption */
+    border-style: ridge;
+    /* below signifies how thick the border is */
+    border-width: 10px;
+    /* this aligns the text in the center of the bar */
+    text-align: center;
+    /* this gives the background color for the  header */
+    background-color: black;
+    /* this below signifies the text color */
+    color: gold;
+    /* this below gives us our font selection */
+    font-family: sans-serif;
+}
+/* adding class selector to image at top of page */
+.image1{
+    padding: 1px;
+    width: 200px;
+    height: 100px;
+    border-radius: 5px;
+}
+/* adding ID selector to h2 tags */
+h2{ font-family: sans-serif;}
+/* adding id selector to p tags */
+/* alot depends on the layout of the website for this small page element selectors work great for
+consistency but if your doing a large project with multiple boxes and alot going on its best to use id or class selectors. */
+#paragraph1{
+    font-family: sans-serif;
+}
+ol{
+    font-family: sans-serif;
+}
+main{
+    background-color: beige;
+    padding: 7px;
+    border-style: ridge;
+    border-width: 5px;
+    
+}
+/* footer css styling code */
+footer{
+    border-style: ridge;
+    border-width: 5px;
+    background-color: gray;
+    padding: 1rem;
+
+
+
+}
+label{
+    font-family: sans-serif;
+}
